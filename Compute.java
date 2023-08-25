@@ -2,7 +2,7 @@ import java.util.*;
 class Compute {
     public static void main(String[] args) {
         int a, b;
-       Scanner s=new Scanner(System.in); 
+       Scanner sc=new Scanner(System.in); 
        System.out.println("Enter First Number: ");
        a=Integer.parseInt(s.nextLine());
        System.out.println("Enter Second Number: ");
