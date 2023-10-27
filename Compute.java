@@ -4,9 +4,9 @@ class Compute {
         int a, b;
        Scanner sc=new Scanner(System.in); 
        System.out.println("Enter First Number: ");
-       a=Integer.parseInt(s.nextLine());
+       a=Integer.parseInt(sc.nextLine());
        System.out.println("Enter Second Number: ");
-       b=Integer.parseInt(s.nextLine());
+       b=Integer.parseInt(sc.nextLine());
        
        while(true){
           System.out.println("Select an Option...");
