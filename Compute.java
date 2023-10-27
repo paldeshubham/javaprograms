@@ -17,7 +17,7 @@ class Compute {
           System.out.println("5. Exit");
           System.out.println("Type your selection here: ");
    
-          String choice=s.nextLine();
+          String choice=sc.nextLine();
           switch(choice){
               case "1":
                   System.out.println("Sum = "+(a+b));
