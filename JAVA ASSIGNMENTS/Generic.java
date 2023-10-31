@@ -27,7 +27,7 @@ public class Generic {
                     
                     break;
                 case 2://prime or not
-                    ArrayList<Integer> number1 =new ArrayList<>();
+                    ArrayList<Integer> number1 = new ArrayList<>();
                     System.out.print("Enter the value of a:");
 		            int a=sc.nextInt();
                     number1.add(a);
