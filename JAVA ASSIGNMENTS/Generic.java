@@ -1,11 +1,11 @@
 import java.util.*;
-public class Generic_code {
+public class Generic {
         public static void main(String[] args) {
             int ch;
             Scanner sc = new Scanner(System.in);
             System.out.println("1.check even or odd");
             System.out.println("2.check prime or not");
-            System.out.println("check palindrome or not");
+            System.out.println("3.check palindrome or not");
             System.out.println("Enter your choice:");
             ch=sc.nextInt();
             switch (ch) {
@@ -22,33 +22,33 @@ public class Generic_code {
                     }
                     else
                     {
-                        System.out.println(number+"is an odd number");
+                        System.out.println(number+" is an odd number");
                     }
                     
                     break;
                 case 2://prime or not
                     ArrayList<Integer> number1 =new ArrayList<>();
                     System.out.print("Enter the value of a:");
-                    int a=sc.nextInt();
+		            int a=sc.nextInt();
                     number1.add(a);
-                    int i=2;
-                    boolean flag=false;
-                    for(i=2;i<=a;++i)
-                    {
-                        if (a%2==0)
-                        {
-                            flag=true;
-                            break;
-                        }
-                    }
-                    if(flag!=true)
-                    {
-                        System.out.println(number1+"is a is prime number");
-                    }
-                    else
-                    {
-                        System.out.println(number1+"is a prime number");	
-                    }
+		            int i=2;
+		            boolean flag=false;
+		            for(i=2;i<=a;++i)
+		            {
+			            if (a%2==0)
+			            {
+				            flag=true;
+				            break;
+			            }
+		            }
+		            if(flag==true)
+		            {
+			            System.out.println("The Given number is not prime no");
+		            }
+		            else
+		            {
+			            System.out.println("The Given no is a prime no");	
+		            }
                     break;
 
                 case 3://palindrome or not
@@ -84,7 +84,5 @@ public class Generic_code {
                 default:
                     break;
             }
-        }
-
-    
+        }  
 }
